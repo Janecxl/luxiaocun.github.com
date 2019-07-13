@@ -1090,7 +1090,7 @@ pre .javascript .function {
   bottom: 19px;
 }
 .header {
-  background: transparent;
+  background: #dac9a6;
 }
 .header-inner {
   position: relative;
@@ -1113,7 +1113,7 @@ pre .javascript .function {
   display: inline-block;
   padding: 0 40px;
   color: #fff;
-  background: #222;
+  background: #fc6423;
   border-bottom: none;
 }
 .brand:hover {
@@ -1225,9 +1225,6 @@ pre .javascript .function {
   .post-body {
     word-break: break-word;
   }
-}
-.post-block {
-  background: #dac9a6;
 }
 .post-body .fancybox img {
   display: block !important;
@@ -1825,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #451f8e;
+  background: #3d477d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2665,6 +2662,9 @@ embed {
 }
 body {
   background: url("/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
 }
 .content {
   border-radius: 10px;
